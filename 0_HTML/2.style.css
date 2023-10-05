@@ -1,0 +1,61 @@
+/* {
+    text-align: center;
+} */
+
+body {
+    background-color: seagreen;
+    /*background-image: url(BC_baby_Yoda.jpg);*/
+    background-attachment: fixed;
+}
+
+.heading1{
+    color: blue;
+    font-size: 40px;
+    /*text-align: center;*/
+}
+
+.para1 { 
+    color: aqua;
+    width: 300px;
+    height: 200px;
+    background-color: chocolate;
+}
+
+#heading2 {
+    color: blueviolet;
+}
+
+h3{
+    color: brown;
+}
+
+
+/* this is a group selector */
+.para1, .heading1, #heading2 {
+    text-align: center;
+}
+
+.img1 img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    border-radius: 50%;
+}
+
+.img2 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
